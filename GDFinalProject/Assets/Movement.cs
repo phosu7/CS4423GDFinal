@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] float speed = 1;
+    [SerializeField] float speed = 5;
     Rigidbody2D rb;
 
     void Awake(){
@@ -12,6 +12,6 @@ public class Movement : MonoBehaviour
     }
 
     public void MoveRB(Vector3 vel){  
-        rb.velocity = vel*speed; 
+        rb.velocity = vel*speed;
     }
 }
