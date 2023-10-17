@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d3642dccfb3b89e4295202f7ac8d7dfa
+guid: f11dcc34aba10b449a57e6dca544039f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_Ninja_0
+      name: Walking_Guard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da283d21a53abe74dbd0bbcbfd9a8ab3
-      internalID: -738431908
+      spriteID: 6805e48121b441f43a9b0a34ee428d33
+      internalID: 375494957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_Ninja_1
+      name: Walking_Guard_1
       rect:
         serializedVersion: 2
         x: 16
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a688f182de7c94e4ab5bd4b79fa81f9b
-      internalID: 782976545
+      spriteID: 116ef304ce88d05409d1dd320ee2ff13
+      internalID: -1500128151
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_Ninja_0: -738431908
-      Idle_Ninja_1: 782976545
+      Walking_Guard_0: 375494957
+      Walking_Guard_1: -1500128151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

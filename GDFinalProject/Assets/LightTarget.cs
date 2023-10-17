@@ -8,5 +8,6 @@ public class LightTarget : MonoBehaviour
     [SerializeField] GameObject spawnPoint;
     void OnTriggerEnter2D(Collider2D other){
         target.transform.position = spawnPoint.transform.position;
+        GetComponent<AudioSource>().Play();
     }
 }
