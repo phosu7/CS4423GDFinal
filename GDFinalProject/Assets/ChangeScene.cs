@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    [SerializeField] string nextScene;
     void OnTriggerEnter2D(Collider2D other){
-        SceneManager.LoadScene("TitleScreen");
+        SceneManager.LoadScene(nextScene);
     }
 }
