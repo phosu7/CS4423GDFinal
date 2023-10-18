@@ -5,14 +5,15 @@ using UnityEngine;
 public class LightFlicker : MonoBehaviour
 {
     [SerializeField] GameObject flashlight;
-
+    [SerializeField] float timeOn = 1.75f;
+    [SerializeField] float timeOff = 1;
     void Start(){
-        InvokeRepeating("LightOn", 0f, 1.75f);
+        InvokeRepeating("LightOn", 0f, timeOn);
     }
 
     void LightOn(){
         flashlight.SetActive(true);
-        Invoke("LightOff",1);
+        Invoke("LightOff",timeOff);
     }
     
     void LightOff(){
