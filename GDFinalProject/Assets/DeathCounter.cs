@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class DeathCounter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public int deaths = 0;
+    public static DeathCounter singleton;
+
+    void Awake(){
+        if (singleton == null){
+            singleton = this;
+            DontDestroyOnLoad(this.gameObject);
+        }else{
+            Destroy(this.gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void AddDeaths(int death){
+        deaths += death;
     }
 }

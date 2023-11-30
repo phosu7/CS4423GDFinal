@@ -6,15 +6,6 @@ public class PlayerInputHandler : MonoBehaviour
 {
     [SerializeField] Movement movement;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
-    void Update(){
-
-    }
-
     void FixedUpdate(){
         Vector3 vel = Vector3.zero;
         if(Input.GetKey(KeyCode.W)){

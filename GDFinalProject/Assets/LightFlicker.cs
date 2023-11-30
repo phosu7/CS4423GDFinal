@@ -6,7 +6,7 @@ public class LightFlicker : MonoBehaviour
 {
     [SerializeField] GameObject flashlight;
     [SerializeField] float timeOn = 1.75f;
-    [SerializeField] float timeOff = 1;
+    [SerializeField] float timeOff = 1f;
     void Start(){
         InvokeRepeating("LightOn", 0f, timeOn);
     }
@@ -19,5 +19,5 @@ public class LightFlicker : MonoBehaviour
     void LightOff(){
         flashlight.SetActive(false);
     } 
-
+    
 }
