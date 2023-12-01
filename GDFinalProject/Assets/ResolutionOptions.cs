@@ -12,7 +12,7 @@ public class ResolutionOptions : MonoBehaviour
     void Start(){
         resolutions = Screen.resolutions;
         bool setDefault = false;
-        if(PlayerPrefs.GetInt("set default reoslution") == 0){
+        if(PlayerPrefs.GetInt("set default resolution") == 0){
             setDefault = true;
             PlayerPrefs.GetInt("set default resolution",1);
         }
